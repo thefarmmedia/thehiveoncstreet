@@ -15,7 +15,7 @@ The site is built so each item below drops into one content file. Nothing here h
 - [ ] Street address (the photos show storefront number 320; confirm before publishing). This enables VacationRental structured data.
 
 ## Tribute & history (optional, meaningful)
-- [ ] A photo of Susi, ideally in Soozeezbeez Honey BEEtique
+- [x] A photo of Susi in Soozeezbeez Honey BEEtique (added 2026-11-15)
 - [ ] Photos of the shop interior, her honey products, the original logo artwork
 - [ ] An approved handwriting or signature sample
 - [ ] Confirmation of whether the shop is still operating (copy currently uses "began", which is neutral)

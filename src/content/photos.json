@@ -210,6 +210,20 @@
   "lqip": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAAAQBgCdASoYACQAPu1qrk+ppiSiKqoBMB2JYgCnFDR7p/qvtHT+9DdLHxmFPegByeKk0uzU+yLcMwAA/uGvbazA54EEYriodZ/6UjtRB2FI7Is24zPTKjIsPWDShRvK7fxqx4C14SLSzStiLLt3nVBF25+2oqauL45xkD/xHm5HDUtnewE5JiFU+Xmb2rbUAAA="
  },
  {
+  "id": "susi-portrait",
+  "width": 2048,
+  "height": 2048,
+  "category": "family",
+  "title": "Susi Caregnato",
+  "alt": "Susi Caregnato smiling in Soozeezbeez Honey BEEtique, wearing a yellow and peach crocheted shawl, with beeswax candles, honey dippers, jars of honey and bee mugs on the shelves around her.",
+  "focal": [
+   50,
+   34
+  ],
+  "featured": false,
+  "lqip": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAQBQCdASoYABgAPu1oq08ppiOiKA1RMB2JZAC+SBDKBQmwptWhdAsdkTYRG55ItiWAAP7Dk5zqQN4k4/Be0f2cJoBSpDr64X0cn0eKFN5hW4sUCugZytVGN3c/gi2Db4BO8p2wvBDtp4IxQVe23zoucfwy1UcZJdZI/pfgR4AAAA=="
+ },
+ {
   "id": "storefront-decal",
   "width": 260,
   "height": 230,

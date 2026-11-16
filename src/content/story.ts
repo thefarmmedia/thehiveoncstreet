@@ -17,8 +17,16 @@ export const tribute = {
     "Today, this special place begins a new chapter, welcoming guests and creating new memories while honoring the warmth and spirit of the woman who once called it home.",
   ],
   closing: "A little sweetness lives on.",
-  /** Family-provided photo of Susi (e.g. in her shop). Put file in public/images/family/ and set path. */
-  portrait: { src: "", alt: "" },
+  /**
+   * Family-provided photo of Susi. `photo` is an id from assets/image-manifest.json
+   * (original in assets/originals/family/). Set photo to "" to hide it.
+   */
+  portrait: {
+    photo: "susi-portrait",
+    caption: "Susi Caregnato in Soozeezbeez Honey BEEtique",
+    /** framing inside the arch (x% y%) */
+    position: "50% 30%",
+  },
   /** Approved handwriting or signature image, optional. */
   signature: { src: "", alt: "" },
 };

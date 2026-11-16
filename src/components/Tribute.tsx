@@ -11,6 +11,8 @@ export function Tribute() {
   const section = useRef<HTMLElement>(null);
   const bee = useRef<SVGSVGElement>(null);
   const approved = TRIBUTE_APPROVED;
+  const portrait = tribute.portrait.photo ? tribute.portrait : null;
+  const storefrontCaption = "The storefront downstairs, home of Soozeezbeez Honey BEEtique. The Hive is upstairs.";
 
   // A single bee crosses just before the story is revealed
   useEffect(() => {
@@ -78,28 +80,34 @@ export function Tribute() {
           </div>
 
           <div className="relative lg:col-span-6">
+            {/* Main arch: Susi's photo when provided, otherwise the storefront */}
             <figure className="relative" data-reveal="mask">
               <div className="aspect-[4/5] overflow-hidden rounded-t-[999px] border border-honey/40 p-2">
                 <Picture
-                  id="exterior-front-storefront"
+                  id={portrait ? portrait.photo : "exterior-front-storefront"}
                   sizes="(min-width: 1024px) 45vw, 92vw"
                   className="h-full w-full overflow-hidden rounded-t-[999px]"
-                  imgStyle={{ objectPosition: "44% 60%" }}
+                  imgStyle={{ objectPosition: portrait ? portrait.position : "44% 60%" }}
                 />
               </div>
-              <figcaption className="mt-4 text-sm text-muted">The storefront downstairs, home of Soozeezbeez Honey BEEtique. The Hive is upstairs.</figcaption>
+              <figcaption className={`mt-4 text-sm text-muted ${portrait ? "font-serif text-lg italic text-ink/80" : ""}`}>
+                {portrait ? portrait.caption : storefrontCaption}
+              </figcaption>
             </figure>
 
-            <figure className="relative mx-auto mt-8 w-[56%] max-w-[230px] sm:absolute sm:-left-10 sm:top-[46%] sm:mt-0 sm:w-[46%]" data-reveal style={{ ["--d" as string]: "250ms" }}>
+            <figure className="relative mx-auto mt-8 w-[56%] max-w-[230px] sm:absolute sm:-left-10 sm:top-[320px] sm:mt-0 sm:w-[46%]" data-reveal style={{ ["--d" as string]: "250ms" }}>
               <div className="aspect-square overflow-hidden bg-cream p-1.5 shadow-2xl shadow-charcoal/25 [clip-path:polygon(25%_3%,75%_3%,100%_50%,75%_97%,25%_97%,0_50%)]">
                 <Picture id="storefront-decal" sizes="230px" className="h-full w-full [clip-path:polygon(25%_3%,75%_3%,100%_50%,75%_97%,25%_97%,0_50%)]" />
               </div>
               <figcaption className="mt-2 text-center text-xs text-muted">The original window decal</figcaption>
             </figure>
 
-            {tribute.portrait.src ? (
-              <figure className="mt-10">
-                <img src={tribute.portrait.src} alt={tribute.portrait.alt} className="w-full rounded-[4px]" loading="lazy" />
+            {portrait ? (
+              <figure className="mt-10 sm:ml-[22%]" data-reveal style={{ ["--d" as string]: "150ms" }}>
+                <div className="aspect-[16/10] overflow-hidden rounded-[4px] shadow-xl shadow-charcoal/10">
+                  <Picture id="exterior-front-storefront" sizes="(min-width: 1024px) 35vw, 80vw" className="h-full w-full" imgStyle={{ objectPosition: "50% 55%" }} />
+                </div>
+                <figcaption className="mt-3 text-sm text-muted">{storefrontCaption}</figcaption>
               </figure>
             ) : SHOW_DRAFTS && (
               <div className="mt-10 rounded-[4px] border border-dashed border-amber/50 p-6 text-sm text-amber">

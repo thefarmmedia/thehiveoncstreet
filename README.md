@@ -41,7 +41,7 @@ npm run images     # regenerate web images after adding/changing photos
 | Contact details | `src/content/site.ts` → `contact` |
 | Address / structured data | `src/content/site.ts` → `location` (set `confirmed: true` + `streetAddress` to emit VacationRental schema) |
 | **Family approval** of the tribute | `src/content/approvals.ts` → `TRIBUTE_APPROVED`, `FOOTER_TRIBUTE_APPROVED` |
-| Tribute copy, Susi's photo, signature | `src/content/story.ts` |
+| Tribute copy, Susi's photo, signature | `src/content/story.ts` (photo original in `assets/originals/family/`) |
 | Amenities | `src/content/details.ts` (`pending` items are hidden in production) |
 | FAQ | `src/content/faq.ts` (`confirmed: false` answers are hidden in production) |
 | Neighborhood | `src/content/neighborhood.ts` (area info from historiccstreet.org; add owner favourites to `places`) |
