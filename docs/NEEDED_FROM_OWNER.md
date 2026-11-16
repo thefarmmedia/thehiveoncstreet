@@ -5,7 +5,7 @@ The site is built so each item below drops into one content file. Nothing here h
 ## Required before launch
 - [ ] **Booking URL** (Airbnb listing link) → `src/content/site.ts` `bookingUrl`
 - [ ] **Final domain** → `src/content/site.ts` `siteUrl`
-- [ ] **Family approval** of the tribute copy in `src/content/story.ts`, then set `TRIBUTE_APPROVED` / `FOOTER_TRIBUTE_APPROVED` in `src/content/approvals.ts`
+- [x] Tribute switched on (2026-11-15) with the draft copy. Family to review and adjust `src/content/story.ts`
 - [ ] Contact method (email / phone / Instagram, or "message us on Airbnb")
 
 ## Listing facts (currently hidden placeholders)

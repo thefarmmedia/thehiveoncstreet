@@ -58,7 +58,7 @@ Content that isn't verified or approved is a **draft**:
 - Drafts **show** in `npm run dev` and on Netlify **deploy previews / branch deploys** (`VITE_SHOW_DRAFTS=true` in `netlify.toml`), marked with dashed "Placeholder" / "Draft" badges.
 - Drafts are **removed from the production bundle** (not just hidden). The tribute text does not appear in the shipped JavaScript until `TRIBUTE_APPROVED` is `true`.
 
-Currently drafts: the tribute section and footer tribute line, unconfirmed amenities, home-specific FAQ answers, and the owner-favourites list.
+Currently drafts: unconfirmed amenities, home-specific FAQ answers, and the owner-favourites list.
 
 ## Accuracy rules this site follows
 
