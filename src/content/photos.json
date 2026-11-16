@@ -1,0 +1,226 @@
+[
+ {
+  "id": "exterior-front-storefront",
+  "width": 2048,
+  "height": 1365,
+  "category": "exterior",
+  "title": "The building on C Street",
+  "alt": "Two-story red brick building with arched upper windows and a teal scalloped awning over the storefront; the windows carry Soozeezbeez Beetique bee decals.",
+  "focal": [
+   52,
+   38
+  ],
+  "featured": true,
+  "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAQBACdASoYABAAPu1iqk2ppaQiMAgBMB2JQBOkCYkbqf15sc0HYwpjgAD+ictaNV9imVJcfY9ZCbeZp5VmvJLqvlDS8SzrGCDKTT1979dpTtxjjWej/Xa6fyal9NHWyD84GBAA"
+ },
+ {
+  "id": "exterior-corner-mural",
+  "width": 2048,
+  "height": 1365,
+  "category": "exterior",
+  "title": "The corner and the flower mural",
+  "alt": "Low-angle view of the brick corner building with a tall painted mural of pink coneflowers on a golden sky and the teal awning wrapping the storefront.",
+  "focal": [
+   55,
+   45
+  ],
+  "featured": true,
+  "lqip": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABQBACdASoYABAAPu1kqU2ppaQiMAgBMB2JaACdMoAJhVjxkjKE0YDdA2QAAP71SXjvVxt5qRqf8SfdyFiuqc9ZYz+b7jFm4/nJXs1zwKMVhQmmCN8fLh4G8JUC6UTLYAQbIV2amHYAAA=="
+ },
+ {
+  "id": "exterior-rear-deck",
+  "width": 2047,
+  "height": 1364,
+  "category": "exterior",
+  "title": "From the alley",
+  "alt": "Rear of the brick building from a walking path, showing the upstairs deck with a tan umbrella, metal stairs and a white door marked 320.",
+  "focal": [
+   42,
+   45
+  ],
+  "featured": false,
+  "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADQAwCdASoYABAAPu1mq04ppaQiMAgBMB2JYgCdMoACfxfycXwRB6AA/OwMcDF1uem8ENKoORRoz58ZKZOPdNoh8FkL4sO+arh9sIrZF+LmT8FVpgYrfs1/Uc+gAA=="
+ },
+ {
+  "id": "deck-view",
+  "width": 2047,
+  "height": 1364,
+  "category": "deck",
+  "title": "The private deck",
+  "alt": "Sunny upstairs deck with a wicker loveseat, glass coffee table, patterned outdoor rug and a tan patio umbrella, looking over the street and neighbouring brick buildings.",
+  "focal": [
+   70,
+   60
+  ],
+  "featured": true,
+  "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABQAgCdASoYABAAA4BaJZACdAC2x79T42LpW8AA/t7scP59ZbVP+AahGoH7sn+uAFneVjGGUxxsC5eYr1hXNLUW8vDrItqW9c9+z+ZbN+mfimCENaTQAA=="
+ },
+ {
+  "id": "deck-entry",
+  "width": 2048,
+  "height": 1365,
+  "category": "deck",
+  "title": "Deck and private entry",
+  "alt": "Wicker sectional and glass table on the deck beside the brick wall and a white entry door with an arched transom window.",
+  "focal": [
+   52,
+   45
+  ],
+  "featured": false,
+  "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JYgCw7BeX5+NJfu1q2L3XCgDLJ6eR3gUf9fzsCHruc+i4Ay2zndoMUf8WHsrpGcF29x5TJ3URRprvSBLM3m8s7VgAAA=="
+ },
+ {
+  "id": "living-daylight",
+  "width": 2048,
+  "height": 1365,
+  "category": "living",
+  "title": "The living room in daylight",
+  "alt": "Bright living room with a curved grey tufted sofa, round ottoman and floral rug on original hardwood floors, under exposed beams, silver ductwork and three tall windows.",
+  "focal": [
+   55,
+   52
+  ],
+  "featured": true,
+  "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAACQAwCdASoYABAAPu1kq04ppaQiMAgBMB2JQBWAAX75ZFpeZOLgAP3T3sSpH8N3WOOa78IiDMQmQhW9Ux2HZ6W6gYSgfpRoxSE56szyCPmtgYx0iLwaAAAA"
+ },
+ {
+  "id": "living-evening",
+  "width": 2048,
+  "height": 1365,
+  "category": "living",
+  "title": "The living room at evening",
+  "alt": "The same living room with curtains drawn and warm string lights glowing on branch decor, a 'Bee Our Guest' sign and honeycomb shelves on the ivy-draped wall.",
+  "focal": [
+   50,
+   50
+  ],
+  "featured": true,
+  "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQBACdASoYABAAPu1kqU4ppaOiMAgBMB2JYgCdABmCnD0s6knU6OSywAD+VRnvgLfIGi3ALHHGfDEs51Cn5YPm9TfUTEbTY0nCo5pSv7Af2iSEAAA="
+ },
+ {
+  "id": "living-arch",
+  "width": 2048,
+  "height": 1364,
+  "category": "living",
+  "title": "Arches, ivy and honeycomb",
+  "alt": "Living room looking toward a white arched doorway and the hallway, with honeycomb shelves, a 'Bee Our Guest' sign and cascading ivy on the sage wall.",
+  "focal": [
+   35,
+   40
+  ],
+  "featured": false,
+  "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAABwAwCdASoYABAAPu1kq04ppaQiMAgBMB2JYwCw7A8BY4R36wAA/ldxbruWKHrUUDpwE4Z0F4lcpvmBs5tMjucr98iRYRAq7pe0dPjS2tfOcXAA"
+ },
+ {
+  "id": "living-brick-fireplace",
+  "width": 2048,
+  "height": 1365,
+  "category": "living",
+  "title": "Exposed brick and fireplace",
+  "alt": "Exposed red brick wall with a wall-mounted TV over an electric fireplace console, brass sconces and timber beams, beside an arched doorway.",
+  "focal": [
+   45,
+   45
+  ],
+  "featured": true,
+  "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAACwAwCdASoYABAAPu1kqU2ppaQiMAgBMB2JQBOgAw4/jevx4rK8wAD5RVM9In1YOjCE97SNG1dVgW2Bj9ICwsiLDYf24RqY11Pix0gegNomOJeHeYbYkAAA"
+ },
+ {
+  "id": "dining-workspace",
+  "width": 2048,
+  "height": 1364,
+  "category": "dining",
+  "title": "Dining and workspace",
+  "alt": "Desk with a bench and chair beside a dining table near two tall windows, under a glowing 'Bee Our Guest' neon sign and trailing ivy.",
+  "focal": [
+   22,
+   20
+  ],
+  "featured": true,
+  "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAABQAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JQAAGlBeWHbrYAAD8XVSqcbX1ajTzW0tlOjJslmBPU3+S/TSQUS2mcK5wQsjLGLhlXFSzia/oeJTqlezPQAAA"
+ },
+ {
+  "id": "kitchen",
+  "width": 2047,
+  "height": 1364,
+  "category": "kitchen",
+  "title": "The kitchen",
+  "alt": "L-shaped kitchen with warm maple shaker cabinets, concrete-look counters, stainless sink and dishwasher, fern garland above the cabinets and a small beehive figurine.",
+  "focal": [
+   45,
+   50
+  ],
+  "featured": true,
+  "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JZACdACPf/O/9Jcphd8gA/lPztZfEqrkoJ5FZ9U9aHLJE64K5MhBNq9zYPRBKFuo9rsq+EBo3p1yJPV7Ew4WAAAA="
+ },
+ {
+  "id": "bedroom-window",
+  "width": 2048,
+  "height": 1365,
+  "category": "bedroom",
+  "title": "Bedroom",
+  "alt": "Bedroom with a white carved bed and grey tufted headboard, navy throw, bee-print pillows and a floral rug with a large bee motif, beside a tall window.",
+  "focal": [
+   55,
+   50
+  ],
+  "featured": true,
+  "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACQAgCdASoYABAAA4BaJYwCAABD1q9qLMpE2KAxAAD+rxiIz3K/cZ6aLmasFZydh+8B7sZ9hOLLFX8CPRxzJE2lBkAqUG/evPSOXshwAAA="
+ },
+ {
+  "id": "bedroom-dresser",
+  "width": 2048,
+  "height": 1365,
+  "category": "bedroom",
+  "title": "Bedroom details",
+  "alt": "Bed with bee-embroidered pillows facing a white dresser and arched mirror with trailing plants and brass lamps; a doorway shows patterned tile beyond.",
+  "focal": [
+   70,
+   45
+  ],
+  "featured": false,
+  "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAwCdASoYABAAPu1oqk6ppiQiMAgBMB2JQBdgCz0Z/1Wg1R3mEhAA/u/Wb3GKj3zqauyV7O15H3QGaYyQYUW3OWn/1tYWu4Bf6mtg3wMcCZKo7s8AAA=="
+ },
+ {
+  "id": "bathroom",
+  "width": 2048,
+  "height": 1365,
+  "category": "bathroom",
+  "title": "The bathroom",
+  "alt": "Sage bathroom with a backlit oval mirror, dark wood vanity, hexagon honeycomb shelves with small plants, a bee hand towel and a ruffled cream shower curtain.",
+  "focal": [
+   45,
+   35
+  ],
+  "featured": true,
+  "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAwCdASoYABAAPu1iqU2ppaQiMAgBMB2JZwAAMWsvYuJw3MvAAP6Mbk8YYdISEH3TbHyAmDhiA4Wg3qjdQJ9kmIzR8fTB1mIX6AAA"
+ },
+ {
+  "id": "hallway",
+  "width": 1365,
+  "height": 2048,
+  "category": "details",
+  "title": "The hallway",
+  "alt": "Long hallway with original pine floorboards, a partly exposed brick wall and a cage sconce, leading through an arched doorway to the bright living room.",
+  "focal": [
+   41,
+   30
+  ],
+  "featured": true,
+  "lqip": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAAAQBgCdASoYACQAPu1qrk+ppiSiKqoBMB2JYgCnFDR7p/qvtHT+9DdLHxmFPegByeKk0uzU+yLcMwAA/uGvbazA54EEYriodZ/6UjtRB2FI7Is24zPTKjIsPWDShRvK7fxqx4C14SLSzStiLLt3nVBF25+2oqauL45xkD/xHm5HDUtnewE5JiFU+Xmb2rbUAAA="
+ },
+ {
+  "id": "storefront-decal",
+  "width": 260,
+  "height": 230,
+  "category": "exterior",
+  "title": "Original storefront decal",
+  "alt": "The original Soozeezbeez Beetique window decal: a honeybee framed by flowers and a banner, as it appears on the storefront glass.",
+  "focal": [
+   50,
+   50
+  ],
+  "featured": false,
+  "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACwBACdASoYABUAPuVgp02pJaOiMAwBIByJYwCpFSADAw93M4uahRj9fvVlBwUAAP6+RBQgYi9R6Iu1vP67uGBzLWLAzF/yf7qz8stZrntPsD0JXqbPsTcEmABqz+JE8ckOcxumkKdNB4xgAAA="
+ }
+]

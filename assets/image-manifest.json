@@ -1,0 +1,188 @@
+{
+  "$comment": "Source of truth for every property photo. Originals live untouched in assets/originals/. Run `npm run images` to regenerate web versions in public/images/. Every entry was classified by looking at the photo itself, not the filename. focal = where the camera should push toward, in % of width/height.",
+  "images": [
+    {
+      "id": "exterior-front-storefront",
+      "original": "29263f75-d235-4db2-9f8a-f29ec82cad03.jfif",
+      "width": 2048, "height": 1365,
+      "category": "exterior",
+      "title": "The building on C Street",
+      "alt": "Two-story red brick building with arched upper windows and a teal scalloped awning over the storefront; the windows carry Soozeezbeez Beetique bee decals.",
+      "notes": "Front facade, street level. Shows the original Soozeezbeez Beetique window decals (authentic signage, do not alter). Upstairs arched windows are the rental. A framed photo sits inside the shop door; it may be of Susi, and it must not be cropped or used without family approval.",
+      "focal": [52, 38],
+      "cinematic": "high", "depth": "medium", "featured": true, "storefront": true
+    },
+    {
+      "id": "exterior-corner-mural",
+      "original": "2f6b7e21-6f35-4aeb-a21c-88ff73427035.jfif",
+      "width": 2048, "height": 1365,
+      "category": "exterior",
+      "title": "The corner and the flower mural",
+      "alt": "Low-angle view of the brick corner building with a tall painted mural of pink coneflowers on a golden sky and the teal awning wrapping the storefront.",
+      "notes": "Strongest establishing shot: strong perspective lines, warm light, botanical mural that fits the bee story. Neighbouring 'Springfield Mercantile Co.' sign visible (a location clue, not confirmed).",
+      "focal": [55, 45],
+      "cinematic": "very high", "depth": "high", "featured": true, "storefront": true
+    },
+    {
+      "id": "exterior-rear-deck",
+      "original": "4788e702-bab4-4f69-becf-52f4f39c2ac6.jfif",
+      "width": 2047, "height": 1364,
+      "category": "exterior",
+      "title": "From the alley",
+      "alt": "Rear of the brick building from a walking path, showing the upstairs deck with a tan umbrella, metal stairs and a white door marked 320.",
+      "notes": "Shows how the upstairs deck sits on the building. Good bridge from exterior to the deck shots. Walking path has a painted red line.",
+      "focal": [42, 45],
+      "cinematic": "high", "depth": "high", "featured": false
+    },
+    {
+      "id": "deck-view",
+      "original": "0ca007c6-0648-4290-a2d4-920cfce46e1a.jfif",
+      "width": 2047, "height": 1364,
+      "category": "deck",
+      "title": "The private deck",
+      "alt": "Sunny upstairs deck with a wicker loveseat, glass coffee table, patterned outdoor rug and a tan patio umbrella, looking over the street and neighbouring brick buildings.",
+      "notes": "Bright, open, and good for a slow lateral move. Overlaps with deck-entry, which shows the same furniture from the opposite side.",
+      "focal": [70, 60],
+      "cinematic": "high", "depth": "high", "featured": true
+    },
+    {
+      "id": "deck-entry",
+      "original": "337933a6-3332-49f0-b9f5-8704a07352d9.jfif",
+      "width": 2048, "height": 1365,
+      "category": "deck",
+      "title": "Deck and private entry",
+      "alt": "Wicker sectional and glass table on the deck beside the brick wall and a white entry door with an arched transom window.",
+      "notes": "The entry door is marked with a unit number. This is the only photo of a guest entrance, so it is the honest 'arrival' beat. Reverse angle of deck-view.",
+      "focal": [52, 45],
+      "cinematic": "medium", "depth": "medium", "featured": false
+    },
+    {
+      "id": "living-daylight",
+      "original": "c6206bb0-2105-4847-b6f2-e4897303bd70.jfif",
+      "width": 2048, "height": 1365,
+      "category": "living",
+      "title": "The living room in daylight",
+      "alt": "Bright living room with a curved grey tufted sofa, round ottoman and floral rug on original hardwood floors, under exposed beams, silver ductwork and three tall windows.",
+      "notes": "Hero interior. Pairs with living-evening (same camera position, curtains closed, string lights on), which allows a true day-to-night dissolve with no invented geometry.",
+      "focal": [55, 52],
+      "cinematic": "very high", "depth": "high", "featured": true
+    },
+    {
+      "id": "living-evening",
+      "original": "e46e8bd3-fd6c-4529-ba18-2cecc12b5fcd.jfif",
+      "width": 2048, "height": 1365,
+      "category": "living",
+      "title": "The living room at evening",
+      "alt": "The same living room with curtains drawn and warm string lights glowing on branch decor, a 'Bee Our Guest' sign and honeycomb shelves on the ivy-draped wall.",
+      "notes": "Nearly the same camera position as living-daylight, so the day-to-night dissolve lines up without warping.",
+      "focal": [50, 50],
+      "cinematic": "very high", "depth": "high", "featured": true
+    },
+    {
+      "id": "living-arch",
+      "original": "5c4c3fcb-d060-4528-b173-71cebc4c977a.jfif",
+      "width": 2048, "height": 1364,
+      "category": "living",
+      "title": "Arches, ivy and honeycomb",
+      "alt": "Living room looking toward a white arched doorway and the hallway, with honeycomb shelves, a 'Bee Our Guest' sign and cascading ivy on the sage wall.",
+      "notes": "Reverse angle of the living room. Shows bee pillows and the arch that leads to the hall.",
+      "focal": [35, 40],
+      "cinematic": "high", "depth": "high", "featured": false
+    },
+    {
+      "id": "living-brick-fireplace",
+      "original": "17fe43b3-efdb-47b1-b230-1440d8911239.jfif",
+      "width": 2048, "height": 1365,
+      "category": "living",
+      "title": "Exposed brick and fireplace",
+      "alt": "Exposed red brick wall with a wall-mounted TV over an electric fireplace console, brass sconces and timber beams, beside an arched doorway.",
+      "notes": "Architectural detail: original brick, beams, arch. The fireplace is an electric unit in a media console.",
+      "focal": [45, 45],
+      "cinematic": "high", "depth": "medium", "featured": true
+    },
+    {
+      "id": "dining-workspace",
+      "original": "1efb7444-2435-4fda-b725-d64b1955b105.jfif",
+      "width": 2048, "height": 1364,
+      "category": "dining",
+      "title": "Dining and workspace",
+      "alt": "Desk with a bench and chair beside a dining table near two tall windows, under a glowing 'Bee Our Guest' neon sign and trailing ivy.",
+      "notes": "Shows the desk and dining table. The neon 'Bee Our Guest' sign is a good signature detail for a close push.",
+      "focal": [22, 20],
+      "cinematic": "high", "depth": "high", "featured": true
+    },
+    {
+      "id": "kitchen",
+      "original": "413af6b9-c3c9-43ec-bf08-9bfd778ecb29.jfif",
+      "width": 2047, "height": 1364,
+      "category": "kitchen",
+      "title": "The kitchen",
+      "alt": "L-shaped kitchen with warm maple shaker cabinets, concrete-look counters, stainless sink and dishwasher, fern garland above the cabinets and a small beehive figurine.",
+      "notes": "Only kitchen photo. A stove and refrigerator are not visible, so do not list them.",
+      "focal": [45, 50],
+      "cinematic": "medium", "depth": "medium", "featured": true
+    },
+    {
+      "id": "bedroom-window",
+      "original": "bf52ddf1-50ac-435a-a8a3-82102aec29a8.jfif",
+      "width": 2048, "height": 1365,
+      "category": "bedroom",
+      "title": "Bedroom",
+      "alt": "Bedroom with a white carved bed and grey tufted headboard, navy throw, bee-print pillows and a floral rug with a large bee motif, beside a tall window.",
+      "notes": "May be the same room as bedroom-dresser, or a second bedroom with matching furniture. Bedroom count is unconfirmed.",
+      "focal": [55, 50],
+      "cinematic": "high", "depth": "medium", "featured": true
+    },
+    {
+      "id": "bedroom-dresser",
+      "original": "c1eae9a4-7294-4d8a-9f28-33b975a2affb.jfif",
+      "width": 2048, "height": 1365,
+      "category": "bedroom",
+      "title": "Bedroom details",
+      "alt": "Bed with bee-embroidered pillows facing a white dresser and arched mirror with trailing plants and brass lamps; a doorway shows patterned tile beyond.",
+      "notes": "Shows a small bee plush and bee-themed decor. Bed size and count are unconfirmed.",
+      "focal": [70, 45],
+      "cinematic": "medium", "depth": "medium", "featured": false
+    },
+    {
+      "id": "bathroom",
+      "original": "eeafb637-c722-432f-b67d-e87388988a45.jfif",
+      "width": 2048, "height": 1365,
+      "category": "bathroom",
+      "title": "The bathroom",
+      "alt": "Sage bathroom with a backlit oval mirror, dark wood vanity, hexagon honeycomb shelves with small plants, a bee hand towel and a ruffled cream shower curtain.",
+      "notes": "Only bathroom photo. Shower or tub type is not visible behind the curtain.",
+      "focal": [45, 35],
+      "cinematic": "medium", "depth": "low", "featured": true
+    },
+    {
+      "id": "hallway",
+      "original": "f6974cd1-6fb0-47e0-b2b1-7ae4ba49e8fb.jfif",
+      "width": 1365, "height": 2048,
+      "category": "details",
+      "title": "The hallway",
+      "alt": "Long hallway with original pine floorboards, a partly exposed brick wall and a cage sconce, leading through an arched doorway to the bright living room.",
+      "notes": "Portrait. Strong one-point perspective, which makes it the best candidate for a forward 'dolly' push. Use it to link the bedroom and living spaces.",
+      "focal": [41, 30],
+      "cinematic": "very high", "depth": "very high", "featured": true
+    }
+  ],
+  "derived": [
+    {
+      "id": "storefront-decal",
+      "from": "exterior-front-storefront",
+      "crop": { "left": 720, "top": 700, "width": 260, "height": 230 },
+      "alt": "The original Soozeezbeez Beetique window decal: a honeybee framed by flowers and a banner, as it appears on the storefront glass.",
+      "notes": "Plain crop of the real storefront photo. No retouching or redrawing."
+    }
+  ],
+  "reconstruction": {
+    "summary": "Not enough coverage for honest 3D reconstruction or a 360 tour. The photos are single wide-angle real-estate frames, about 1 to 4 per space, and most walls are unseen.",
+    "overlapping_pairs": [
+      ["living-daylight", "living-evening", "near-identical viewpoint; use for day/night dissolve, not 3D"],
+      ["living-daylight", "living-arch", "opposite ends of one room; too little overlap for photogrammetry"],
+      ["deck-view", "deck-entry", "reverse angles of the same furniture; partial overlap"],
+      ["exterior-front-storefront", "exterior-corner-mural", "same facade from two angles"]
+    ]
+  }
+}
