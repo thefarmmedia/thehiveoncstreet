@@ -138,13 +138,13 @@ export function Hero() {
       {animated && <Bee ref={bee} size={30} className="absolute left-0 top-0 z-30 opacity-0" />}
 
       {/* Copy */}
-      <div className="container-x relative z-40 flex h-full flex-col justify-end pb-28 sm:pb-32">
+      <div className="container-x relative z-40 flex h-full flex-col items-center justify-end pb-40 text-center sm:pb-32 md:items-start md:text-left">
         <p className="eyebrow text-honey-light">{site.secondaryTagline.replace(/\.$/, "")}</p>
         <h1 className="mt-4 max-w-[12ch] text-[3.4rem] leading-[0.92] sm:text-[5.2rem] lg:text-[7rem]">
           The Hive <span className="block text-[0.6em] italic text-honey-light">on C Street</span>
         </h1>
         <p className="mt-5 font-serif text-2xl italic text-ivory/90 sm:text-3xl">{site.tagline}</p>
-        <div className="mt-8 flex flex-wrap gap-3">
+        <div className="mt-8 flex flex-wrap justify-center gap-3 md:justify-start">
           <a href="#explore" className="btn btn-ghost">Explore the Hive</a>
           <BookButton />
         </div>
@@ -153,7 +153,7 @@ export function Hero() {
       {/* Chapter bar */}
       {animated && (
         <div className="absolute inset-x-0 bottom-0 z-40">
-          <div className="container-x flex items-end justify-between gap-4 pb-6">
+          <div className="container-x flex flex-col items-center gap-3 pb-5 text-center sm:flex-row sm:items-end sm:justify-between sm:gap-4 sm:pb-6 sm:text-left">
             <div className="min-w-0" aria-live="polite">
               <p className="eyebrow whitespace-nowrap text-ivory/70">
                 <span className="text-honey">{String(index + 1).padStart(2, "0")}</span>

@@ -21,14 +21,14 @@ export function Gallery() {
   return (
     <section id="gallery" aria-labelledby="gallery-title" className="bg-ivory py-24 sm:py-32">
       <div className="container-x">
-        <div className="flex flex-wrap items-end justify-between gap-8">
+        <div className="flex flex-col items-center gap-8 text-center lg:flex-row lg:items-end lg:justify-between lg:text-left">
           <div>
             <p className="eyebrow text-amber" data-reveal>Gallery</p>
             <h2 id="gallery-title" className="mt-4 text-[2.6rem] sm:text-[3.6rem]" data-reveal style={{ ["--d" as string]: "80ms" }}>
               Every corner, <em className="text-sage-deep">in the light</em>
             </h2>
           </div>
-          <div role="group" aria-label="Filter photos by room" className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none] sm:mx-0 sm:flex-wrap sm:px-0">
+          <div role="group" aria-label="Filter photos by room" className="flex flex-wrap justify-center gap-2 lg:justify-end">
             {galleryFilters.map((f) => (
               <button
                 key={f.key}

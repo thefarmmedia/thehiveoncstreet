@@ -75,7 +75,7 @@ export function Header({ nav }: { nav: NavItem[] }) {
         className={`fixed inset-0 z-40 bg-charcoal text-ivory transition-[opacity,visibility] duration-500 lg:hidden ${open ? "visible opacity-100" : "invisible opacity-0"}`}
       >
         <div className="honeycomb-bg absolute inset-0 opacity-30" aria-hidden="true" />
-        <nav aria-label="Mobile" className="container-x relative flex h-full flex-col justify-center gap-2 pt-16">
+        <nav aria-label="Mobile" className="container-x relative flex h-full flex-col items-center justify-center gap-2 pt-16 text-center">
           {nav.map((n, i) => (
             <a
               key={n.href}

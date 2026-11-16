@@ -141,7 +141,7 @@ export function Explorer() {
   return (
     <section id="explore" aria-labelledby="explore-title" className="relative bg-charcoal py-20 text-ivory sm:py-28">
       <div className="container-x">
-        <div className="flex flex-wrap items-end justify-between gap-6">
+        <div className="flex flex-col items-center gap-6 text-center lg:flex-row lg:items-end lg:justify-between lg:text-left">
           <div>
             <p className="eyebrow text-honey" data-reveal>Choose your view</p>
             <h2 id="explore-title" className="mt-4 text-[2.6rem] sm:text-[3.6rem]" data-reveal style={{ ["--d" as string]: "80ms" }}>
@@ -190,7 +190,7 @@ export function Explorer() {
             <div className="pointer-events-none absolute inset-0 z-20 bg-gradient-to-t from-charcoal/85 via-transparent to-charcoal/20" />
 
             {/* Caption + angle controls */}
-            <div className="absolute inset-x-0 bottom-0 z-30 flex items-end justify-between gap-4 p-5 sm:p-8">
+            <div className="absolute inset-x-0 bottom-0 z-30 flex flex-col items-center gap-3 p-5 text-center sm:flex-row sm:items-end sm:justify-between sm:gap-4 sm:p-8 sm:text-left">
               <div className="max-w-xl" aria-live="polite">
                 <p className="eyebrow text-honey-light">{current.label}</p>
                 <p className="mt-2 font-serif text-[1.7rem] leading-tight sm:text-4xl">{p.title}</p>
@@ -243,7 +243,7 @@ export function Explorer() {
 
         {/* Mobile/tablet view chips */}
         <nav aria-label="Choose a view" className="-mx-4 mt-4 overflow-x-auto px-4 pb-2 lg:hidden [scrollbar-width:none]">
-          <ul className="flex w-max gap-2">
+          <ul className="mx-auto flex w-max gap-2">
             {exploreViews.map((v, i) => (
               <li key={v.key}>
                 <button
@@ -260,7 +260,7 @@ export function Explorer() {
             ))}
           </ul>
         </nav>
-        <p className="mt-3 text-sm text-ivory/70 sm:hidden">{current.blurb}</p>
+        <p className="mt-3 text-center text-sm text-ivory/70 sm:hidden">{current.blurb}</p>
       </div>
     </section>
   );

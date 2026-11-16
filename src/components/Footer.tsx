@@ -14,14 +14,14 @@ export function Footer({ nav }: { nav: NavItem[] }) {
       <div className="honeycomb-bg absolute inset-0 opacity-[0.12]" aria-hidden="true" />
       <div className="container-x relative">
         <div className="grid gap-12 md:grid-cols-12">
-          <div className="md:col-span-5">
+          <div className="flex flex-col items-center text-center md:col-span-5 md:items-start md:text-left">
             <Logo />
             <p className="mt-6 max-w-sm font-serif text-2xl italic text-ivory/90">{site.tagline}</p>
             <div className="mt-8">
               <BookButton />
             </div>
           </div>
-          <nav aria-label="Footer" className="md:col-span-3">
+          <nav aria-label="Footer" className="text-center md:col-span-3 md:text-left">
             <p className="eyebrow text-[0.62rem] text-honey">Explore</p>
             <ul className="mt-4 space-y-2.5 text-sm">
               {nav.map((n) => (
@@ -29,7 +29,7 @@ export function Footer({ nav }: { nav: NavItem[] }) {
               ))}
             </ul>
           </nav>
-          <div className="md:col-span-4">
+          <div className="text-center md:col-span-4 md:text-left">
             <p className="eyebrow text-[0.62rem] text-honey">Contact</p>
             <ul className="mt-4 space-y-2.5 text-sm">
               {email && <li><a href={`mailto:${email}`} className="hover:text-honey">{email}</a></li>}

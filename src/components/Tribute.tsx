@@ -60,7 +60,7 @@ export function Tribute() {
         </div>
 
         <div className="mt-16 grid items-start gap-16 lg:mt-24 lg:grid-cols-12 lg:gap-12">
-          <div className="lg:col-span-6 lg:pr-6">
+          <div className="text-center lg:col-span-6 lg:pr-6 lg:text-left">
             <p className="eyebrow text-amber" data-reveal>{tribute.eyebrow}</p>
             <h2 id="story-title" className="mt-4 text-[2.8rem] sm:text-[3.8rem] lg:text-[4.4rem]" data-reveal style={{ ["--d" as string]: "80ms" }}>
               {tribute.title}
@@ -70,13 +70,13 @@ export function Tribute() {
             </p>
             <div className="mt-10 space-y-5 text-[1.08rem] leading-[1.8] text-ink/85">
               {tribute.paragraphs.map((p, i) => (
-                <p key={i} data-reveal style={{ ["--d" as string]: `${120 + i * 70}ms` }} className={i === 0 ? "first-letter:float-left first-letter:mr-3 first-letter:mt-1 first-letter:font-serif first-letter:text-[4.2rem] first-letter:leading-[0.8] first-letter:text-amber" : ""}>
+                <p key={i} data-reveal style={{ ["--d" as string]: `${120 + i * 70}ms` }} className={i === 0 ? "lg:first-letter:float-left lg:first-letter:mr-3 lg:first-letter:mt-1 lg:first-letter:font-serif lg:first-letter:text-[4.2rem] lg:first-letter:leading-[0.8] lg:first-letter:text-amber" : ""}>
                   {p}
                 </p>
               ))}
             </div>
             <p className="mt-10 font-serif text-3xl italic text-amber" data-reveal>{tribute.closing}</p>
-            {tribute.signature.src && <img src={tribute.signature.src} alt={tribute.signature.alt} className="mt-6 h-16 w-auto opacity-80" loading="lazy" />}
+            {tribute.signature.src && <img src={tribute.signature.src} alt={tribute.signature.alt} className="mx-auto mt-6 h-16 w-auto opacity-80 lg:mx-0" loading="lazy" />}
           </div>
 
           <div className="relative lg:col-span-6">
@@ -90,12 +90,12 @@ export function Tribute() {
                   imgStyle={{ objectPosition: portrait ? portrait.position : "44% 60%" }}
                 />
               </div>
-              <figcaption className={`mt-4 text-sm text-muted ${portrait ? "font-serif text-lg italic text-ink/80" : ""}`}>
+              <figcaption className={`mt-4 text-center text-sm text-muted lg:text-left ${portrait ? "font-serif text-lg italic text-ink/80" : ""}`}>
                 {portrait ? portrait.caption : storefrontCaption}
               </figcaption>
             </figure>
 
-            <figure className="relative mx-auto mt-8 w-[56%] max-w-[230px] sm:absolute sm:-left-10 sm:top-[320px] sm:mt-0 sm:w-[46%]" data-reveal style={{ ["--d" as string]: "250ms" }}>
+            <figure className="relative mx-auto mt-8 w-[56%] max-w-[230px] lg:absolute lg:-left-10 lg:top-[320px] lg:mt-0 lg:w-[46%]" data-reveal style={{ ["--d" as string]: "250ms" }}>
               <div className="aspect-square overflow-hidden bg-cream p-1.5 shadow-2xl shadow-charcoal/25 [clip-path:polygon(25%_3%,75%_3%,100%_50%,75%_97%,25%_97%,0_50%)]">
                 <Picture id="storefront-decal" sizes="230px" className="h-full w-full [clip-path:polygon(25%_3%,75%_3%,100%_50%,75%_97%,25%_97%,0_50%)]" />
               </div>
@@ -103,11 +103,11 @@ export function Tribute() {
             </figure>
 
             {portrait ? (
-              <figure className="mt-10 sm:ml-[22%]" data-reveal style={{ ["--d" as string]: "150ms" }}>
+              <figure className="mx-auto mt-10 max-w-xl lg:ml-[22%] lg:mr-0 lg:max-w-none" data-reveal style={{ ["--d" as string]: "150ms" }}>
                 <div className="aspect-[16/10] overflow-hidden rounded-[4px] shadow-xl shadow-charcoal/10">
                   <Picture id="exterior-front-storefront" sizes="(min-width: 1024px) 35vw, 80vw" className="h-full w-full" imgStyle={{ objectPosition: "50% 55%" }} />
                 </div>
-                <figcaption className="mt-3 text-sm text-muted">{storefrontCaption}</figcaption>
+                <figcaption className="mt-3 text-center text-sm text-muted lg:text-left">{storefrontCaption}</figcaption>
               </figure>
             ) : SHOW_DRAFTS && (
               <div className="mt-10 rounded-[4px] border border-dashed border-amber/50 p-6 text-sm text-amber">
