@@ -30,12 +30,21 @@ export function Footer({ nav }: { nav: NavItem[] }) {
             </ul>
           </nav>
           <div className="text-center md:col-span-4 md:text-left">
-            <p className="eyebrow text-[0.62rem] text-honey">Contact</p>
+            <p className="eyebrow text-[0.62rem] text-honey">Your stay</p>
             <ul className="mt-4 space-y-2.5 text-sm">
+              <li>Historic C-Street, {site.location.city}, Missouri</li>
+              <li>Check-in after {site.listing.checkIn} &middot; Checkout by {site.listing.checkOut}</li>
+              {site.bookingUrl && (
+                <li>
+                  <a href={site.bookingUrl} target="_blank" rel="noopener" className="underline-offset-4 hover:text-honey hover:underline">
+                    Message {site.listing.host}, your host, on {site.bookingPlatform}
+                    <span className="sr-only"> (opens in a new tab)</span>
+                  </a>
+                </li>
+              )}
               {email && <li><a href={`mailto:${email}`} className="hover:text-honey">{email}</a></li>}
               {phone && <li><a href={`tel:${phone.replace(/[^+\d]/g, "")}`} className="hover:text-honey">{phone}</a></li>}
               {instagram && <li><a href={instagram} target="_blank" rel="noopener" className="hover:text-honey">Instagram</a></li>}
-              {site.bookingUrl && <li><a href={site.bookingUrl} target="_blank" rel="noopener" className="hover:text-honey">Message us on the booking page</a></li>}
               {!email && !phone && !site.bookingUrl && SHOW_DRAFTS && <li><span className="draft-badge">Placeholder · contact details needed</span></li>}
             </ul>
           </div>
@@ -48,7 +57,10 @@ export function Footer({ nav }: { nav: NavItem[] }) {
           </p>
         )}
         <div className={`flex flex-col items-center justify-between gap-3 text-xs text-ivory/45 sm:flex-row ${showTribute ? "mt-8" : "mt-16 border-t border-white/10 pt-8"}`}>
-          <p>&copy; {new Date().getFullYear()} {site.name}</p>
+          <p>
+            &copy; {new Date().getFullYear()} {site.name}
+            {site.listing.registration && <span> &middot; Registration {site.listing.registration}</span>}
+          </p>
           <p>
             Website by{" "}
             <a href={site.credit.url} target="_blank" rel="noopener" className="text-ivory/70 underline-offset-4 hover:text-honey hover:underline">

@@ -11,22 +11,45 @@ export const site = {
   tagline: "A Little Sweetness Lives On.",
   secondaryTagline: "A Sweet Place to Stay.",
 
-  /** Short description for search results and link previews (no unverified facts). */
+  /** Short description for search results and link previews (facts from the Airbnb listing). */
   description:
-    "Stay upstairs on Historic C-Street in Springfield, Missouri: exposed brick, timber beams, original hardwood floors, a private deck, and a honeybee story that began downstairs.",
+    "An upstairs apartment for up to 3 guests on Historic C-Street in Springfield, Missouri: one bedroom with a queen bed, exposed brick and timber beams, self check-in, free parking, and a honeybee story that began downstairs.",
 
-  /** Official booking link (Airbnb listing or approved booking platform). */
-  bookingUrl: "",
+  /**
+   * Official booking link: the Airbnb listing. Every "Book" button uses it.
+   * (Tracking parameters from the shared link were removed.)
+   */
+  bookingUrl: "https://www.airbnb.com/rooms/1750192248487782452",
+  bookingPlatform: "Airbnb",
+
+  /**
+   * Listing facts, copied from the Airbnb listing on 2026-11-19.
+   * Update here if the listing changes.
+   */
+  listing: {
+    type: "Entire rental unit",
+    guests: 3,
+    bedrooms: 1,
+    beds: 1,
+    baths: 1,
+    sleeping: "1 queen bed and 1 air mattress",
+    checkIn: "3:00 PM",
+    checkOut: "11:00 AM",
+    timezone: "Central Time",
+    selfCheckIn: "Keypad",
+    host: "Nichole",
+    /** Short-term rental registration shown on the listing. */
+    registration: "BUS2026-01059",
+  },
 
   /** Final public URL of this website, e.g. "https://thehiveoncstreet.com". Used for canonical + social tags. */
   siteUrl: "",
 
   /**
-   * Location. District and city confirmed by the owner (Historic C-Street,
-   * Springfield, MO). The street address is NOT confirmed yet. The storefront
-   * in the photos is numbered 320, but don't publish it until the owner OKs it.
-   * Lodging structured data is emitted only when confirmed = true and
-   * streetAddress is set.
+   * Location. Springfield, Missouri is confirmed by the owner and the Airbnb
+   * listing. The street address is NOT published (Airbnb shares it after
+   * booking). Lodging structured data is emitted only when confirmed = true
+   * and streetAddress is set.
    */
   location: {
     confirmed: false,
@@ -43,7 +66,5 @@ export const site = {
     instagram: "",
   },
 
-
   credit: { name: "The Farm Media", url: "https://thefarmmedia.com" },
 };
-

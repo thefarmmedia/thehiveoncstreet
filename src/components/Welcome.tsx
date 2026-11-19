@@ -19,16 +19,22 @@ export function Welcome() {
               Sage walls, trailing ivy, honeycomb shelves and a glowing &ldquo;Bee Our Guest&rdquo; sign make it feel like a garden
               indoors, with a little bee hidden around almost every corner.
             </p>
+            <p>
+              It&rsquo;s the whole upstairs apartment, just for you: a bedroom with a queen bed, a full kitchen, a desk with Wi-Fi,
+              a washer and dryer, a balcony with outdoor seating, and free parking. Self check-in means you can arrive any time
+              after 3:00 PM.
+            </p>
           </div>
-          <ul className="mx-auto mt-10 grid max-w-[34rem] grid-cols-3 gap-4 border-t border-charcoal/10 pt-6 lg:mx-0" data-reveal style={{ ["--d" as string]: "240ms" }}>
+          <ul className="mx-auto mt-10 grid max-w-[34rem] grid-cols-2 gap-x-4 gap-y-6 border-t border-charcoal/10 pt-6 sm:grid-cols-4 lg:mx-0" data-reveal style={{ ["--d" as string]: "240ms" }}>
             {[
-              ["Upstairs", "above the storefront"],
-              ["Private", "outdoor deck"],
-              ["Bee", "inspired details"],
+              [`${site.listing.guests}`, "guests"],
+              [`${site.listing.bedrooms}`, "bedroom, queen bed"],
+              [`${site.listing.baths}`, "bathroom"],
+              ["Free", "parking on site"],
             ].map(([a, b]) => (
-              <li key={a}>
+              <li key={b}>
                 <span className="block font-serif text-2xl text-charcoal sm:text-3xl">{a}</span>
-                <span className="text-[0.8rem] text-muted">{b}</span>
+                <span className="text-[0.8rem] leading-snug text-muted">{b}</span>
               </li>
             ))}
           </ul>

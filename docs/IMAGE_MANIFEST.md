@@ -10,7 +10,7 @@ plus a 1280px JPEG for social previews) are generated into `public/images/` by `
 | `exterior-corner-mural` | 2f6b7e21… | Exterior: corner, flower mural, storefront | Establishing shot, push-in | High (strong perspective) | ★ |
 | `exterior-front-storefront` | 29263f75… | Exterior: front facade, **Soozeezbeez Beetique decals** | Storefront → upstairs tilt | Medium | ★ |
 | `exterior-rear-deck` | 4788e702… | Exterior: rear, deck, stairs, alley path | Bridge to deck | High | |
-| `deck-view` | 0ca007c6… | Private deck, looking out over the street | Finale pull-back | High | ★ |
+| `deck-view` | 0ca007c6… | Balcony, looking out over the street | Finale pull-back | High | ★ |
 | `deck-entry` | 337933a6… | Deck and entry door (arched transom) | "Arrival" push | Medium | |
 | `living-daylight` | c6206bb0… | Living room, daytime | Hero interior | High | ★ |
 | `living-evening` | e46e8bd3… | Living room, evening, string lights | Day→night dissolve (same viewpoint) | High | ★ |
@@ -26,7 +26,7 @@ plus a 1280px JPEG for social previews) are generated into `public/images/` by `
 
 ## Notes and cautions
 
-- **Bedrooms:** `bedroom-window` and `bedroom-dresser` show matching furniture; they may be one room or two. The site makes no bedroom-count claim.
+- **Bedroom:** the Airbnb listing confirms one bedroom (queen bed + air mattress); `bedroom-window` and `bedroom-dresser` are the same room.
 - **Kitchen:** no stove or refrigerator is visible, so neither is listed.
 - **Storefront:** a framed photo is visible inside the shop door (it may be Susi). It is not cropped or featured without family approval.
 - **3D reconstruction:** not feasible from this set. See `docs/VIDEO_STORYBOARD.md` §1 for what footage would make it possible.

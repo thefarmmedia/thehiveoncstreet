@@ -16,6 +16,9 @@ const paths: Record<Detail["icon"], string> = {
   parking: "M6 20V4h6a4 4 0 0 1 0 8H6",
   key: "M14 10a4 4 0 1 0-1 2.6L20 20M17 17l2-2",
   clock: "M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18ZM12 7v5l3 2",
+  laundry: "M5 3h14v18H5ZM5 7h14M8 5h.01M11 5h.01M12 18a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM9.5 14.5c1-.8 2-.8 3 0s2 .8 3 0",
+  climate: "M12 3v18M4.2 7.5l15.6 9M4.2 16.5l15.6-9M10 5l2 2 2-2M10 19l2-2 2 2",
+  shield: "M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6ZM9 12l2 2 4-4",
 };
 
 export function DetailIcon({ name, className = "h-6 w-6" }: { name: Detail["icon"]; className?: string }) {

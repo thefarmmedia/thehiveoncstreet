@@ -36,13 +36,15 @@ npm run images     # regenerate web images after adding/changing photos
 
 | To change… | Edit |
 |---|---|
-| **Booking link** | `src/content/site.ts` → `bookingUrl`. Every Book button updates. Until it's set, buttons scroll to the Book section, which says "booking is opening soon". |
+| **Booking link** | `src/content/site.ts` → `bookingUrl` (currently the Airbnb listing). Every Book button uses it. |
+| Listing facts (guests, beds, times, host, registration) | `src/content/site.ts` → `listing` |
 | Site URL (canonical / social tags) | `src/content/site.ts` → `siteUrl` |
 | Contact details | `src/content/site.ts` → `contact` |
 | Address / structured data | `src/content/site.ts` → `location` (set `confirmed: true` + `streetAddress` to emit VacationRental schema) |
 | **Family approval** of the tribute | `src/content/approvals.ts` → `TRIBUTE_APPROVED`, `FOOTER_TRIBUTE_APPROVED` |
 | Tribute copy, Susi's photo, signature | `src/content/story.ts` (photo original in `assets/originals/family/`) |
-| Amenities | `src/content/details.ts` (`pending` items are hidden in production) |
+| Amenities (cards + complete list) | `src/content/details.ts` |
+| House rules & checkout steps | `src/content/houseRules.ts` |
 | FAQ | `src/content/faq.ts` (`confirmed: false` answers are hidden in production) |
 | Neighborhood | `src/content/neighborhood.ts` (area info from historiccstreet.org; add owner favourites to `places`) |
 | Hero shots / camera moves | `src/content/hero.ts` |

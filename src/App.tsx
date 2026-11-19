@@ -7,6 +7,7 @@ import { Gallery } from "./components/Gallery";
 import { Header, type NavItem } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { Neighborhood } from "./components/Neighborhood";
+import { StayInfo } from "./components/StayInfo";
 import { StickyBook } from "./components/StickyBook";
 import { Tribute } from "./components/Tribute";
 import { Welcome } from "./components/Welcome";
@@ -17,10 +18,11 @@ const showTribute = __SHOW_TRIBUTE__;
 const nav: NavItem[] = [
   { href: "#explore", label: "Explore" },
   { href: "#gallery", label: "Gallery" },
-  { href: "#details", label: "Details" },
+  { href: "#details", label: "Amenities" },
+  { href: "#stay-info", label: "House Rules" },
   ...(showTribute ? [{ href: "#story", label: "Our Story" }] : []),
   { href: "#c-street", label: "C Street" },
-  ...(visibleFaq().length ? [{ href: "#faq", label: "FAQ" }] : []),
+  ...(visibleFaq().length ? [{ href: "#faq", label: "FAQ", wideOnly: true }] : []),
 ];
 
 export default function App() {
@@ -34,6 +36,7 @@ export default function App() {
         <Explorer />
         <Gallery />
         <Details />
+        <StayInfo />
         {__SHOW_TRIBUTE__ && <Tribute />}
         <Neighborhood />
         <Book />

@@ -45,8 +45,8 @@ export const exploreViews: ExploreView[] = [
   },
   {
     key: "deck",
-    label: "Private Deck",
-    blurb: "An upstairs deck with an umbrella and wicker seating, looking out over the street.",
+    label: "Balcony",
+    blurb: "An upstairs balcony with an umbrella and wicker seating, looking out over the street.",
     shots: ["deck-view", "deck-entry"],
   },
   {
@@ -64,5 +64,5 @@ export const galleryFilters: { key: string; label: string; categories: string[] 
   { key: "kitchen", label: "Kitchen & Dining", categories: ["kitchen", "dining"] },
   { key: "bedroom", label: "Bedroom", categories: ["bedroom"] },
   { key: "bathroom", label: "Bathroom", categories: ["bathroom"] },
-  { key: "deck", label: "Deck", categories: ["deck"] },
+  { key: "deck", label: "Balcony", categories: ["deck"] },
 ];

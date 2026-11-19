@@ -5,6 +5,8 @@ import { Logo } from "./Logo";
 export interface NavItem {
   href: string;
   label: string;
+  /** shown in the desktop header only on extra-wide screens (always in menus and footer) */
+  wideOnly?: boolean;
 }
 
 export function Header({ nav }: { nav: NavItem[] }) {
@@ -41,9 +43,9 @@ export function Header({ nav }: { nav: NavItem[] }) {
           <Logo tone={dark ? "dark" : "light"} />
         </a>
         <nav aria-label="Main" className="hidden lg:block">
-          <ul className={`flex items-center gap-7 text-[0.74rem] font-semibold uppercase tracking-[0.18em] ${dark ? "text-ink" : "text-ivory"}`}>
+          <ul className={`flex items-center gap-5 text-[0.72rem] font-semibold uppercase tracking-[0.14em] xl:gap-7 xl:tracking-[0.18em] ${dark ? "text-ink" : "text-ivory"}`}>
             {nav.map((n) => (
-              <li key={n.href}>
+              <li key={n.href} className={n.wideOnly ? "hidden xl:block" : undefined}>
                 <a href={n.href} className="relative py-2 opacity-85 transition hover:opacity-100 after:absolute after:inset-x-0 after:-bottom-0.5 after:h-px after:origin-left after:scale-x-0 after:bg-honey after:transition-transform after:duration-500 hover:after:scale-x-100">
                   {n.label}
                 </a>

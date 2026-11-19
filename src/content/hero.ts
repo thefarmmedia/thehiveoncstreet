@@ -102,7 +102,7 @@ export const heroShots: HeroShot[] = [
   },
   {
     photo: "deck-view",
-    label: "The deck",
+    label: "The balcony",
     seconds: 6,
     from: { scale: 1.2, origin: [70, 60] },
     to: { scale: 1.03, origin: [50, 50] },
